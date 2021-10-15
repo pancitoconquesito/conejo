@@ -1,29 +1,20 @@
 # Proyecto de ingenieria de software
 - Museos de Ciencias y Artes -
-## Repositorio 
-:fa-github: 
-
+## Repositorio
 [https://github.com/pancitoconquesito/conejo ](https://github.com/pancitoconquesito/conejo  "https://github.com/pancitoconquesito/conejo ")
-
 ------------
-
 ------------
-
-
 ## GDD
-
 [![img prototipo](https://raw.githubusercontent.com/pancitoconquesito/conejo/main/_imgs/aw1.png "img prototipo")](https://raw.githubusercontent.com/pancitoconquesito/conejo/main/_imgs/aw1.png "img prototipo")
 ### Concepto general
 •	Género: Walking simulator 3d en tercera persona con algunos elementos de aventura y colectaton, para PC S.O Windows.
 •	Público objetivo: niños y preadolescentes.
 •	Objetivo principal del software: incentivar e introducir a niños y preadolescentes en las ciencias y el arte. No se busca directamente enseñar, este es el medio para motivar el interés en estas áreas.
-
 ------------
 ### Reseña de la narrativa
 Joaquín es un niño de 12 años, una noche mientras jugaba con su telescopio se percata que su perro se escapa, inmediatamente sale por la ventana a buscarlo.
 recorre un par de cuadras y entra a un bosque donde atravesando un frondoso arbusto es transportado a otra dimensión, un lugar que parece ser un museo.
 después despierta en un hospital sin piernas y su perro nunca existió.
-
 ### Mecánicas principales e interacción básica
 El personaje se controla en tercera persona, modificando su dirección local en función de la dirección de la cámara, podrá caminar y correr.
 	Lectura simple: al acercarse a un letrero o afiche se podrá desplegar en UI su contenido. Avanzar en el texto y salir en cualquier momento, puede contener texto sonidos e imágenes.
