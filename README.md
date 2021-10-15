@@ -1,7 +1,9 @@
 # Proyecto de ingenieria de software
 - Museos de Ciencias y Artes -
 ## Repositorio 
-:fa-github: [https://github.com/pancitoconquesito/conejo ](https://github.com/pancitoconquesito/conejo  "https://github.com/pancitoconquesito/conejo "):fa-github:
+:fa-github: 
+
+[https://github.com/pancitoconquesito/conejo ](https://github.com/pancitoconquesito/conejo  "https://github.com/pancitoconquesito/conejo ")
 
 ------------
 
