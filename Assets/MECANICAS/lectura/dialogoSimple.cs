@@ -40,13 +40,17 @@ public class dialogoSimple : MonoBehaviour
     {
         
     }
-    
+    private Animator animFlecha;
+    private setSprite setSpriteFlecha;
     void Start()
     {
         //new_posicion_pj = obj_new_posicion_pj.transform.position;
 
         UI_TS = GameObject.Find("UI/TS");
         UI_continuar = GameObject.Find("UI/TS/Image/continuar").GetComponent<Image>();
+        animFlecha = GameObject.Find("UI/TS/Image/continuar").GetComponent<Animator>();
+        setSpriteFlecha = GameObject.Find("UI/TS/Image/continuar").GetComponent<setSprite>();
+
         texto_ui = GameObject.FindGameObjectWithTag("TS-text").GetComponent<TextMeshProUGUI>();
 
         estado_pj = GameObject.FindGameObjectWithTag("PJ").GetComponent<Estados_S>();
@@ -199,10 +203,15 @@ public class dialogoSimple : MonoBehaviour
                     {
                         //muestro boton de continuar
                         UI_continuar.enabled = true;
+                        if (indice+1==_texto.Length) setSpriteFlecha.setIdSprite(1);
+                        else setSpriteFlecha.setIdSprite(0);
+
+                        animFlecha.SetTrigger("start");
                         salir = true;
                         break;
                     }
             }  
         } while (!salir);  
     }
+    
 }

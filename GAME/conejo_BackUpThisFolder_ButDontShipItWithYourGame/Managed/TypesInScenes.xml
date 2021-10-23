@@ -65,7 +65,6 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="DecalSystem.Decal" preserve="nothing"/>
 		<type fullname="Estados_S" preserve="nothing"/>
-		<type fullname="Readme" preserve="nothing"/>
 		<type fullname="START" preserve="nothing"/>
 		<type fullname="animNameActual" preserve="nothing"/>
 		<type fullname="animTest" preserve="nothing"/>
@@ -75,6 +74,7 @@
 		<type fullname="infoCamara" preserve="nothing"/>
 		<type fullname="move" preserve="nothing"/>
 		<type fullname="rotacion" preserve="nothing"/>
+		<type fullname="setSprite" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Cinemachine">
 		<type fullname="Cinemachine.CinemachineBasicMultiChannelPerlin" preserve="nothing"/>

@@ -803,10 +803,10 @@ static const Il2CppRGCTXDefinition s_rgctxValues[16] =
 	{ (Il2CppRGCTXDataType)3, 29293 },
 	{ (Il2CppRGCTXDataType)1, 327 },
 	{ (Il2CppRGCTXDataType)2, 327 },
-	{ (Il2CppRGCTXDataType)3, 34479 },
+	{ (Il2CppRGCTXDataType)3, 34480 },
 	{ (Il2CppRGCTXDataType)1, 329 },
-	{ (Il2CppRGCTXDataType)3, 34459 },
-	{ (Il2CppRGCTXDataType)3, 34469 },
+	{ (Il2CppRGCTXDataType)3, 34460 },
+	{ (Il2CppRGCTXDataType)3, 34470 },
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_AndroidJNIModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGenModule;
